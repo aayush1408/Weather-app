@@ -8,6 +8,14 @@
     <label>City</label>
     <input type="text" name="city"><br><br>
     <input type="submit" name="">
+           <% if(weather !== null){ %>
+          <p><%= weather %></p>
+        <% } %>
+
+        <% if(error !== null){ %>
+          <p><%= error %></p>
+        <% } %>
+      
 </form>
 </body>
 </html>
